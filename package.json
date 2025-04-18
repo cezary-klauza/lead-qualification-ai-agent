@@ -1,0 +1,24 @@
+{
+  "name": "lead-qualification-agent",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "npx tsc && node ./dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cezary Klauza",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^0.8.0",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "@types/nodemailer": "^6.4.17",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemailer": "^6.10.1",
+    "puppeteer": "^24.6.1",
+    "typescript": "^5.8.3"
+  }
+}
